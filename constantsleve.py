@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 nothingupmysleve
-Generating nothing up my sleve numbers from the digits of pi.
+Generating nothing-up-my-sleeve numbers from the digits of pi.
 TODO:
 
 """
