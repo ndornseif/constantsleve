@@ -8,7 +8,7 @@ These integers are truncated to 32 bits and then used as the data from which not
 Optionally, these integers can be hashed using Blake2.
 
 ## Usage example
-`   
+```   
 d = DataGenerator.from_pi_file(PI_DIGITS_FILE)   
 d.hash_blocks()    
 print("Available bytes:", d.available_bytes())     
@@ -18,7 +18,7 @@ print(" 32-bit:", d.generate_ints(number_of_ints=4, bytes_per_int=4, as_hex=True
 print(" 64-bit:", d.generate_ints(number_of_ints=4, bytes_per_int=8, as_hex=True))   
 print("128-bit:", d.generate_ints(number_of_ints=2, bytes_per_int=16, as_hex=True))   
 print("256-bit:", d.generate_ints(number_of_ints=2, bytes_per_int=32, as_hex=True))   
-`
+```
 
 ## License
 Published under GPL-3.0 license.
